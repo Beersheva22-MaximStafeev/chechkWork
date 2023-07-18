@@ -2,7 +2,7 @@ package telran.checkWork.dto;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
-
+ 
 public class Message {
 
 	@NotNull(message = Settings.NOT_NULL_MESSAGE)
